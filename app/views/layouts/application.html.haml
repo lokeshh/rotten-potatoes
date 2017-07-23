@@ -12,4 +12,5 @@
     - elsif flash[:warning]
       #warning.message= flash[:warning]
     #main
+      = render partial: 'session/login_form'
       = yield
