@@ -2,6 +2,13 @@ class MoviesController < ApplicationController
   def movie_params
     params.require(:movie).permit(:title, :rating, :description, :release_date)  
   end
+
+  def movies_with_filters_2
+    @movies = Movie.with_good_reviews(params[:threshold])
+    %w(for_kids with_many_fans recently_reviewed).each do |filter|
+      @movies = @movies.send(filter) if params[filter]
+    end
+  end
   
   def index
     @movies = Movie.all
