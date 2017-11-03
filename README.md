@@ -1,6 +1,7 @@
 # README
 
 > I am awesome, but not free
+> You are not your job
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
