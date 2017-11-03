@@ -1,10 +1,10 @@
 # README
 
-~ I am awesome, but not free
+- I am awesome, but not free
 
-~ You are not your job
+- You are not your job
 
-~ You are not your bank account
+- You are not your bank account
 
 
 This README would normally document whatever steps are necessary to get the
